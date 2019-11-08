@@ -177,7 +177,7 @@ class threeLevelFCEM(BaseEstimator):
             
             for kpi in kpiEvaluations:
             
-                categoryEvaluation[categoryMapping[index]].append(kpi);
+                categoryEvaluation[self.categoryMapping[index]].append(kpi);
                 
                 index += 1;
 
@@ -200,7 +200,7 @@ class threeLevelFCEM(BaseEstimator):
             
             # Compute the Goal Evaluation
             
-            goal = np.array(weightVectorGoals);
+            goal = np.array(self.weightVectorGoals);
             categories = computedCategoryEvaluation;
             
             goalEvaluation = np.dot(goal,categories);
