@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fcem
+Version: 0.0.1
+Summary: Fuzzy Comprehensive Evaluation Methodology
+Home-page: https://github.com/cycle-system/fcem
+Author: Cycle ML Team
+Author-email: ml@cyclesystem.org
+License: UNKNOWN
+Description: # fcem
+        Fuzzy Comprehensive Evaluation Methodology
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
