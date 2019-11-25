@@ -70,11 +70,10 @@ class threeLevelFCEM(BaseEstimator):
         
         for kpi in self.kpiParameters:
         
-            rangeMin = min(kpi[0]);
-            rangeMax = max(kpi[len(kpi) - 1]);
+            rangeMin = min(min(kpi));
+            rangeMax = max(max(kpi));
             
             self.xAxis.append(np.arange(rangeMin, rangeMax, self.kpiStep[index]))
-            
             index += 1;
             
         # Create membership function array for each KPI
