@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="fcem",
-    version="0.0.1",
+    version="0.0.2",
     author="Cycle ML Team",
     author_email="ml@cyclesystem.org",
     description="Fuzzy Comprehensive Evaluation Methodology",
